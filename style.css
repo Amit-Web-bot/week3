@@ -1,0 +1,45 @@
+body{
+    background-color:  black;
+    color: white;
+
+
+}
+
+.felx-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div>input{
+    width: 400px;
+    height: 25px;
+    background-color: transparent;
+    color: white;
+}
+div>button{
+    height: 25px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: 0.5px solid white;
+}
+
+.felx-div>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon>img{
+    height: 25px;
+    width: 25px
+}
+table{
+    margin: 50px;
+}
+td {
+    text-align: center;
+    border-bottom: 1px grey solid;
+    padding: 5px;
+
+}
